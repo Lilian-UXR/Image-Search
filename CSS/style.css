@@ -1,0 +1,15 @@
+body {
+    font-family: "Rubik Spray Paint", system-ui, sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    background-color: lightcoral;
+}
+
+form {
+    display: inline-block;
+    gap: 1em;
+    width: 100%;
+    max-width: 50em;
+    margin: 1em auto;
+    padding: 0.5em;
+}
