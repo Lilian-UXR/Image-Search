@@ -1,6 +1,7 @@
+const SearchInput = document.getElementById('image-search-input');
+
 let SearchContainer = document.querySelector('.js-search-container');
 let form = document.querySelector('.js-search-form');
-let SearchInput = document.querySelector('[name=image-search-input]');
 
 const imageBeingSearched = `&q=${SearchInput.value}`;
 const apikey = 'api_key=ihLC7ZyuQR0EdKRSflFGUrR3mv3tPAYn';
