@@ -1,15 +1,54 @@
 body {
-    font-family: "Rubik Spray Paint", system-ui, sans-serif;
-    font-style: normal;
-    font-size: 50px;
-    background-color: lightcoral;
+  font-family: "Rubik Spray Paint", system-ui, sans-serif;
+  font-style: normal;
+  font-size: 50px;
+  background-color: lightcoral;
+}
+
+.navigation-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+a:hover {
+  color: lightslategray;
+}
+
+.nav-menu {
+  color: black;
+  font-size: 1.5rem;
 }
 
 form {
-    display: inline-block;
-    gap: 1em;
-    width: 100%;
-    max-width: 50em;
-    margin: 1em auto;
-    padding: 0.5em;
+  display: inline-block;
+  justify-content: center;
+}
+
+input {
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+button {
+  background-color: lightskyblue;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: lightslategray;
+  color: white;
+}
+
+li {
+  padding-left: 25px;
 }
