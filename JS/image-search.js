@@ -29,7 +29,7 @@ async function getData() {
     }
     const data = await response.json();
     let html = '<ul class="gif-images">';
-    for (let i = 0; i <= 24; ++i) {
+    for (let i = 0; i <= 29; ++i) {
       const gifUrl = data.data[i].images.original.url;
       ImageContainer.innerHTML += `
         <div class="images">
