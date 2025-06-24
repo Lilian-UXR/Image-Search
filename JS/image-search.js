@@ -3,12 +3,12 @@ const SearchInput = document.getElementById("image-search-input");
 const ImageContainer = document.querySelector(".js-image-container"); //where images should populate
 let form = document.querySelector(".js-search-form");
 
-const apikey = "api_key=inputkey"; //need key insert for it to work
+const apikey = "api_key=2T5hIWRqWzcVN4P6Qj3xVFzwRanNS4ur"; //need key insert for it to work
 const url = `https://api.giphy.com/v1/stickers/search?`;
 const bounds = "&rating=pg&lang=en";
 
-// [ ] confirm I have to use SASS as a styling sheet?
-// [ ] how to use secret api key and keep it a secret?
+// [X] confirm I have to use SASS as a styling sheet? can use css in project
+// [X] how to use secret api key and keep it a secret? no need api key to launch project
 // [X] user input search item for images in HTML form
 // [X] user input in HTML is linked in Javascript
 // [X] javascript needs image search item to connect to api url
