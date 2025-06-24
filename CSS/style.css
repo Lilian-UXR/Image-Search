@@ -52,3 +52,12 @@ button:hover {
 li {
   padding-left: 25px;
 }
+
+.image-container-css {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gif-image {
+  width: cal (100%/3 - 10px);
+}
