@@ -59,5 +59,7 @@ li {
 }
 
 .gif-image {
-  width: cal (100%/3 - 10px);
+  width: cal(100%/3 - 10px);
+  margin: 200px 5px;
+  border-radius: 10px;
 }

@@ -14,6 +14,7 @@ const bounds = "&rating=pg&lang=en";
 // [X] javascript needs image search item to connect to api url
 // [X] api url needs to link to gif associated with search
 // [X] gif url need to generate and render HTML to display on page (innerHTML)
+// [ ] reset search output after submission
 
 async function getData() {
   if (!SearchInput.value.trim()) {
