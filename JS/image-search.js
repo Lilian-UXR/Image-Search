@@ -14,7 +14,7 @@ const bounds = "&rating=pg&lang=en";
 // [X] javascript needs image search item to connect to api url
 // [X] api url needs to link to gif associated with search
 // [X] gif url need to generate and render HTML to display on page (innerHTML)
-// [ ] reset search output after submission
+// [X] reset search output after submission
 
 async function getData() {
   if (!SearchInput.value.trim()) {
@@ -30,6 +30,7 @@ async function getData() {
     }
     const data = await response.json();
     let html = '<ul class="gif-images">';
+    ImageContainer.innerHTML='';
     for (let i = 0; i <= 29; ++i) {
       const gifUrl = data.data[i].images.original.url;
       ImageContainer.innerHTML += `
@@ -48,4 +49,5 @@ async function getData() {
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   getData();
+  document.getElementById("image-search-input")='';
 });
