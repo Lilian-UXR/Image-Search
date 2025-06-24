@@ -58,8 +58,8 @@ li {
   flex-wrap: wrap;
 }
 
-.gif-image {
-  width: cal(100%/3 - 10px);
-  margin: 200px 5px;
+img {
+  width: 300px;
+  margin: 20px 5px;
   border-radius: 10px;
 }
